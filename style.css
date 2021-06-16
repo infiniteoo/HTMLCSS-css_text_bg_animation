@@ -17,4 +17,13 @@ body {
 
 .animated {
   font-family: "Charm", cursive;
+  margin: 0;
+  padding: 0;
+  font-size: 6rem;
+  background: url(text-bg.png) no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: moveBg 90s linear infinite;
+  -webkit-animation: moveBg 90s linear infinite;
 }
